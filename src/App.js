@@ -69,9 +69,9 @@ Même inachevée en raison de sa mort en 1880, la partition constitue un magnifi
         <div className='w-full flex flex-col justify-center  items-center shadow-2xl rounded m-1 p-1' style={{ backgroundColor: "#EDDDCE", transition: "background-color 0.3s" }}
           onMouseEnter={(e) => (e.currentTarget.style.backgroundColor = "#D1B59B")}
           onMouseLeave={(e) => (e.currentTarget.style.backgroundColor = "#EDDDCE")} >
-          <text>Type</text>
-          <img src={photo2} alt='Helianthus Logo' height={300} width={300} />
           <text>Activité Culturelle</text>
+          <img src={photo2} alt='Helianthus Logo' height={300} width={300} />
+          <text>Exposition</text>
           <div className='flex justify-start w-full'>
             <div className='px-8'>
               <text><strong>Présentation</strong></text>
